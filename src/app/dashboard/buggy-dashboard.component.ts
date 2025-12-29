@@ -127,7 +127,7 @@ export class BuggyDashboardComponent implements OnInit {
 
             p.comments.forEach((comment: any) => {
               comment.date = new Date(comment.date);
-              comment.date = comment.date.toLocaleString('pt-BR').replace(',', ' às');
+              comment.date = comment.date.toLocaleString('pt-BR').replace(',', ' as');
               this.totalComments++;
             });
           });
