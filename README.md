@@ -11,7 +11,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 Este projeto contém um componente `BuggyDashboardComponent` que foi intencionalmente quebrado para fins de avaliação. Seu objetivo é identificar e corrigir os seguintes problemas:
 
 1.  Ao selecionar o usuário o nome não está aparecendo, apenas o email e data
-2.  Está exibindo incorretamente o tempo que o usuário está cadastrado no sistema
+2.  Está exibindo incorretamente o tempo que o usuário está cadastrado no sistema. Deve ser exibido o tempo em dias mas está apresentando valores estranhos.
 3.  Não está exibindo os posts do usuário ao selecionar
 4.  Os comentários parecem estar duplicados
 5.  O contador de "Total comments" por usuário parece aumentar infinitamente ao dar refresh ou alternar entre usuários
